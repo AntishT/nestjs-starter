@@ -33,7 +33,7 @@ class EnvironmentVariablesValidator {
      */
 
     @ValidateIf((envValues) => !envValues.DATABASE_URL)
-    @IsString()
+    // @IsString()
     POSTGRES_HOST: string;
 
     /**
